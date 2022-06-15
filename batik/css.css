@@ -1,0 +1,231 @@
+<style>
+body{
+	margin: 0;
+	padding: 0;
+
+}
+input{
+	padding: 5px;
+}
+.container{
+	margin-left: 5%;
+	width: 90%;
+	font-family: verdana;
+	display: inline-block;
+
+}
+.header{
+	width: 100%;
+	min-height: 120px;
+	background: #51a77b;
+	background-size: 100%;
+	display: inline-block;
+}
+.header h1{
+	margin-left: 25px;
+	padding: 0px;
+	color: #fff;
+}
+.header h2{
+	margin-left: 25px;
+	margin-top: 5px;
+	padding: 0px;
+	color: #e0e0e0;
+	font-size: 16px;
+}
+.nav{
+	width: 100%;
+	background: black;
+}
+.nav ul{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	list-style: none;
+	font-family: arial;
+}
+.nav ul li{
+	float: left;
+}
+.nav ul li a{
+	padding: 10px 14px;
+	display: inline-block;
+	color: #eee;
+	font-weight: 700;
+	font-family: 'Open Sans', arial, sans-serif;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	background: #0e7389;
+}
+.section{
+	width: 100%;
+	background: #fcfcfc;
+	display: inline-block;
+}
+.section .content{
+	float: left;
+	width: 70%;
+	min-height: 600px;
+	display: inline-block;
+	font-family: arial;
+}
+.section .sidebar{
+	clear: none;
+	float: left;
+	width: 30%;
+}
+.section .sidebar .sub-menu{
+	width: 94%;
+	margin-left: 3%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.sub-menu ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.sub-menu ul li a{
+	padding: 8px 14px;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	color: #4c898c;
+}
+.sub-menu ul li a:hover{
+	color: #333;
+	background: #eee;
+}
+.section .content .artikel{
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 10px;
+	display: inline-block;
+}
+.section .content .artikel .body-artikel{
+	clear: none;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 50%;
+	height: 220px;
+	
+}
+.img-artikel{
+	float: left;
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.img-artikel img{
+	width: 100%;
+	opacity: 0.7;
+	display: inline-block;
+}
+.img-artikel img:hover{
+	width: 100%;
+	opacity: 1;
+}
+.caption-artikel{
+	float: left;
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.caption-artikel h3{
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+.caption-artikel h3 a{
+	text-decoration: none;
+	color: yellowgreen;
+}
+.caption-artikel strong{
+	margin-top: 0;
+	margin-bottom: 5px;
+	color: #ff8484;
+}
+
+.footer{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	background: black;
+	color: white;
+}
+.footer p{
+	margin: 0;
+	padding: 10px;
+}
+.btn-red{
+	padding: 5px 16px;
+	background: #e15454;
+	color: #eee;
+	display: inline-block;
+	margin:2px;
+	text-decoration: none;
+}
+.btn-red:hover{
+	background: #111;
+	color: #fff;
+}
+
+.btn-blue{
+	padding: 5px 16px;
+	background: blue;
+	color: #eee;
+	display: inline-block;
+	margin:2px;
+	text-decoration: none;
+}
+.btn-blue:hover{
+	background: #111;
+	color: #fff;
+}
+
+.btn-green{
+	padding: 5px 16px;
+	background: green;
+	color: #eee;
+	display: inline-block;
+	margin:2px;
+	text-decoration: none;
+}
+.btn-green:hover{
+	background: #111;
+	color: #fff;
+}
+
+table{
+	font-size: 14px;
+	
+}
+
+#grad-yellow {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+#grad-silver {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,  #dafff9, #ffe1e1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,  #dafff9, #ffe1e1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,  #dafff9, #ffe1e1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,  #dafff9, #ffe1e1); /* Standard syntax */
+}
+</style>
